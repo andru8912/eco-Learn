@@ -27,4 +27,3 @@ def generarDatosDeforestacion():
         listaDatos.append(encuesta)
         
     return listaDatos
-print (generarDatosDeforestacion())

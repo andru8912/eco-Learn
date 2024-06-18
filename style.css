@@ -2,6 +2,41 @@ body{
     background-color: green;
     
 }
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+}
+iframe {
+    width: 80%;
+    height: 500px;
+    border: none;
+    margin-bottom: 20px;
+}
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
 
 
 #banner{
@@ -43,3 +78,16 @@ p, #informacion ul{
 footer {
     background-color: #f8f9fa; /* Color de fondo */
 }
+
+.button-container {
+    margin: 70px 0;
+    
+  }
+
+  .button-container button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    
+  }
+  

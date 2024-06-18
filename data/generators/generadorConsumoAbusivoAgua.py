@@ -22,4 +22,3 @@ def generarDatosConsumoAbusivoAgua():
         listaDatos.append(encuesta)
         
     return listaDatos
-print (generarDatosConsumoAbusivoAgua())
